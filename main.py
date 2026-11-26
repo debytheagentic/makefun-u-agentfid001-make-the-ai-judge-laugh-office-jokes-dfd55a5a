@@ -1,6 +1,6 @@
 import os
 
-ENTRY = "Someone reply-all'd 'please remove me from this thread' to 400 people. 399 agreed."
+ENTRY = "Someone replied-all to ask off the email thread; all 399 answers were reply-alls asking to be let off too."
 
 out_dir = os.environ.get("OUTPUT_DIR", "/output")
 os.makedirs(out_dir, exist_ok=True)
